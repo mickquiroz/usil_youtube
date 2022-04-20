@@ -10,7 +10,7 @@
                     </div>
                     <div class="card-body">
                         <h5>{{ $singleVideo->items[0]->snippet->title }}</h5>
-                        <p class="text-secondary">Published at {{date('d M Y', strtotime($singleVideo->items[0]->snippet->publishedAt))}}</p>
+                        <p class="text-secondary">Publicado el {{date('d M Y', strtotime($singleVideo->items[0]->snippet->publishedAt))}}</p>
                         <p>{{ $singleVideo->items[0]->snippet->description }}</p>
                     </div>
                 </div>
